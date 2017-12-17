@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E11C2C677F7DC2BA6A32CD0 /* Pods_RichApparels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226D729E990AB2994EC65EE8 /* Pods_RichApparels.framework */; };
+		8B065BC21F251B9F007BFCCF /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BC11F251B9F007BFCCF /* ProductImageView.swift */; };
+		8B065BC41F251BAF007BFCCF /* PaintCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BC31F251BAF007BFCCF /* PaintCodeView.swift */; };
+		8B065BC61F251C64007BFCCF /* RichApparelsStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BC51F251C64007BFCCF /* RichApparelsStyleKit.swift */; };
+		8B065BC81F2523F4007BFCCF /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BC71F2523F4007BFCCF /* ProductViewController.swift */; };
+		8B065BCA1F254091007BFCCF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BC91F254091007BFCCF /* Extensions.swift */; };
+		8B065BCE1F25740D007BFCCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BCD1F25740D007BFCCF /* GoogleService-Info.plist */; };
+		8B065BD01F263988007BFCCF /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BCF1F263988007BFCCF /* ShopViewController.swift */; };
+		8B065BD21F26869A007BFCCF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B065BD11F26869A007BFCCF /* HomeViewController.swift */; };
+		8B065BDF1F268B9C007BFCCF /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BD41F268B9C007BFCCF /* Lato-Black.ttf */; };
+		8B065BE01F268B9C007BFCCF /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BD51F268B9C007BFCCF /* Lato-BlackItalic.ttf */; };
+		8B065BE11F268B9C007BFCCF /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BD61F268B9C007BFCCF /* Lato-Bold.ttf */; };
+		8B065BE21F268B9C007BFCCF /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BD71F268B9C007BFCCF /* Lato-BoldItalic.ttf */; };
+		8B065BE31F268B9C007BFCCF /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BD81F268B9C007BFCCF /* Lato-Hairline.ttf */; };
+		8B065BE41F268B9C007BFCCF /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BD91F268B9C007BFCCF /* Lato-HairlineItalic.ttf */; };
+		8B065BE51F268B9C007BFCCF /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BDA1F268B9C007BFCCF /* Lato-Italic.ttf */; };
+		8B065BE61F268B9C007BFCCF /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BDB1F268B9C007BFCCF /* Lato-Light.ttf */; };
+		8B065BE71F268B9C007BFCCF /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BDC1F268B9C007BFCCF /* Lato-LightItalic.ttf */; };
+		8B065BE81F268B9C007BFCCF /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BDD1F268B9C007BFCCF /* Lato-Regular.ttf */; };
+		8B065BE91F268B9C007BFCCF /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B065BDE1F268B9C007BFCCF /* OFL.txt */; };
+		8B36305E1F280B9D001D1580 /* SubmissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B36305D1F280B9D001D1580 /* SubmissionsViewController.swift */; };
+		8B3630621F284475001D1580 /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3630611F284475001D1580 /* Easing.swift */; };
 		8BEB5E2B1F225F2B00B58558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E2A1F225F2B00B58558 /* AppDelegate.swift */; };
-		8BEB5E2D1F225F2B00B58558 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E2C1F225F2B00B58558 /* FirstViewController.swift */; };
-		8BEB5E2F1F225F2B00B58558 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E2E1F225F2B00B58558 /* SecondViewController.swift */; };
+		8BEB5E2D1F225F2B00B58558 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E2C1F225F2B00B58558 /* ProductsViewController.swift */; };
+		8BEB5E2F1F225F2B00B58558 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E2E1F225F2B00B58558 /* WebViewController.swift */; };
 		8BEB5E321F225F2B00B58558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEB5E301F225F2B00B58558 /* Main.storyboard */; };
 		8BEB5E341F225F2B00B58558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEB5E331F225F2B00B58558 /* Assets.xcassets */; };
 		8BEB5E371F225F2B00B58558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEB5E351F225F2B00B58558 /* LaunchScreen.storyboard */; };
 		8BEB5E421F225F2B00B58558 /* RichApparelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E411F225F2B00B58558 /* RichApparelsTests.swift */; };
 		8BEB5E4D1F225F2B00B58558 /* RichApparelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB5E4C1F225F2B00B58558 /* RichApparelsUITests.swift */; };
+		8BF007661F22A95D0033EEA0 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF007651F22A95D0033EEA0 /* ProductCollectionViewCell.swift */; };
+		8BF007681F2407DE0033EEA0 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF007671F2407DE0033EEA0 /* CategoriesViewController.swift */; };
+		8BF0076A1F2433CE0033EEA0 /* HideSections.js in Resources */ = {isa = PBXBuildFile; fileRef = 8BF007691F2433CE0033EEA0 /* HideSections.js */; };
+		8BF0076E1F2456770033EEA0 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0076D1F2456770033EEA0 /* CategoryCollectionViewCell.swift */; };
+		8BF007701F24612E0033EEA0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0076F1F24612E0033EEA0 /* MoreViewController.swift */; };
+		8BF007721F246B920033EEA0 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF007711F246B920033EEA0 /* BannerCollectionViewCell.swift */; };
+		A815422E271AC5AF3745BEEC /* Pods_RichApparelsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AC51EEAC9AE50175453D1C /* Pods_RichApparelsTests.framework */; };
+		FB3720F5D285176B6179F414 /* Pods_RichApparelsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF053B0BB716B26A668F4CA /* Pods_RichApparelsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +65,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03061F1C08C821AAD323BE19 /* Pods-RichApparelsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichApparelsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichApparelsTests/Pods-RichApparelsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		226D729E990AB2994EC65EE8 /* Pods_RichApparels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichApparels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF053B0BB716B26A668F4CA /* Pods_RichApparelsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichApparelsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70808A5A2DF9A57DD80CEE60 /* Pods-RichApparelsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichApparelsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichApparelsUITests/Pods-RichApparelsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B065BC11F251B9F007BFCCF /* ProductImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
+		8B065BC31F251BAF007BFCCF /* PaintCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintCodeView.swift; sourceTree = "<group>"; };
+		8B065BC51F251C64007BFCCF /* RichApparelsStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichApparelsStyleKit.swift; sourceTree = "<group>"; };
+		8B065BC71F2523F4007BFCCF /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		8B065BC91F254091007BFCCF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8B065BCD1F25740D007BFCCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B065BCF1F263988007BFCCF /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		8B065BD11F26869A007BFCCF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B065BD41F268B9C007BFCCF /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		8B065BD51F268B9C007BFCCF /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8B065BD61F268B9C007BFCCF /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		8B065BD71F268B9C007BFCCF /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B065BD81F268B9C007BFCCF /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		8B065BD91F268B9C007BFCCF /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		8B065BDA1F268B9C007BFCCF /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		8B065BDB1F268B9C007BFCCF /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		8B065BDC1F268B9C007BFCCF /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		8B065BDD1F268B9C007BFCCF /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		8B065BDE1F268B9C007BFCCF /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		8B36305D1F280B9D001D1580 /* SubmissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionsViewController.swift; sourceTree = "<group>"; };
+		8B3630611F284475001D1580 /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
 		8BEB5E271F225F2B00B58558 /* RichApparels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichApparels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEB5E2A1F225F2B00B58558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BEB5E2C1F225F2B00B58558 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8BEB5E2E1F225F2B00B58558 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8BEB5E2C1F225F2B00B58558 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		8BEB5E2E1F225F2B00B58558 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8BEB5E311F225F2B00B58558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BEB5E331F225F2B00B58558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BEB5E361F225F2B00B58558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +104,17 @@
 		8BEB5E481F225F2B00B58558 /* RichApparelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichApparelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEB5E4C1F225F2B00B58558 /* RichApparelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichApparelsUITests.swift; sourceTree = "<group>"; };
 		8BEB5E4E1F225F2B00B58558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF007651F22A95D0033EEA0 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BF007671F2407DE0033EEA0 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		8BF007691F2433CE0033EEA0 /* HideSections.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HideSections.js; sourceTree = "<group>"; };
+		8BF0076D1F2456770033EEA0 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BF0076F1F24612E0033EEA0 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		8BF007711F246B920033EEA0 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		B229131E3B36E79B8477D1AB /* Pods-RichApparels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichApparels.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichApparels/Pods-RichApparels.release.xcconfig"; sourceTree = "<group>"; };
+		B4AC51EEAC9AE50175453D1C /* Pods_RichApparelsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichApparelsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C181EBB9CD32912B717CF115 /* Pods-RichApparelsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichApparelsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichApparelsUITests/Pods-RichApparelsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC41516D2E822E5818135E4 /* Pods-RichApparels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichApparels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichApparels/Pods-RichApparels.debug.xcconfig"; sourceTree = "<group>"; };
+		F47CDAF354F756F64392273B /* Pods-RichApparelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichApparelsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichApparelsTests/Pods-RichApparelsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E11C2C677F7DC2BA6A32CD0 /* Pods_RichApparels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A815422E271AC5AF3745BEEC /* Pods_RichApparelsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3720F5D285176B6179F414 /* Pods_RichApparelsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38705AA50ADA4B77F98B1A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCC41516D2E822E5818135E4 /* Pods-RichApparels.debug.xcconfig */,
+				B229131E3B36E79B8477D1AB /* Pods-RichApparels.release.xcconfig */,
+				03061F1C08C821AAD323BE19 /* Pods-RichApparelsTests.debug.xcconfig */,
+				F47CDAF354F756F64392273B /* Pods-RichApparelsTests.release.xcconfig */,
+				70808A5A2DF9A57DD80CEE60 /* Pods-RichApparelsUITests.debug.xcconfig */,
+				C181EBB9CD32912B717CF115 /* Pods-RichApparelsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B065BD31F268B9C007BFCCF /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				8B065BD41F268B9C007BFCCF /* Lato-Black.ttf */,
+				8B065BD51F268B9C007BFCCF /* Lato-BlackItalic.ttf */,
+				8B065BD61F268B9C007BFCCF /* Lato-Bold.ttf */,
+				8B065BD71F268B9C007BFCCF /* Lato-BoldItalic.ttf */,
+				8B065BD81F268B9C007BFCCF /* Lato-Hairline.ttf */,
+				8B065BD91F268B9C007BFCCF /* Lato-HairlineItalic.ttf */,
+				8B065BDA1F268B9C007BFCCF /* Lato-Italic.ttf */,
+				8B065BDB1F268B9C007BFCCF /* Lato-Light.ttf */,
+				8B065BDC1F268B9C007BFCCF /* Lato-LightItalic.ttf */,
+				8B065BDD1F268B9C007BFCCF /* Lato-Regular.ttf */,
+				8B065BDE1F268B9C007BFCCF /* OFL.txt */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
 		8BEB5E1E1F225F2A00B58558 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +183,8 @@
 				8BEB5E401F225F2B00B58558 /* RichApparelsTests */,
 				8BEB5E4B1F225F2B00B58558 /* RichApparelsUITests */,
 				8BEB5E281F225F2B00B58558 /* Products */,
+				38705AA50ADA4B77F98B1A82 /* Pods */,
+				A66C53954C84D95000D3F53A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +202,27 @@
 			isa = PBXGroup;
 			children = (
 				8BEB5E2A1F225F2B00B58558 /* AppDelegate.swift */,
-				8BEB5E2C1F225F2B00B58558 /* FirstViewController.swift */,
-				8BEB5E2E1F225F2B00B58558 /* SecondViewController.swift */,
+				8B065BD11F26869A007BFCCF /* HomeViewController.swift */,
+				8BEB5E2C1F225F2B00B58558 /* ProductsViewController.swift */,
+				8B065BC71F2523F4007BFCCF /* ProductViewController.swift */,
+				8B065BC91F254091007BFCCF /* Extensions.swift */,
+				8BF007671F2407DE0033EEA0 /* CategoriesViewController.swift */,
+				8BEB5E2E1F225F2B00B58558 /* WebViewController.swift */,
+				8B065BCF1F263988007BFCCF /* ShopViewController.swift */,
+				8BF0076F1F24612E0033EEA0 /* MoreViewController.swift */,
+				8B36305D1F280B9D001D1580 /* SubmissionsViewController.swift */,
+				8B3630611F284475001D1580 /* Easing.swift */,
+				8BF007691F2433CE0033EEA0 /* HideSections.js */,
 				8BEB5E301F225F2B00B58558 /* Main.storyboard */,
+				8BF0076D1F2456770033EEA0 /* CategoryCollectionViewCell.swift */,
+				8BF007651F22A95D0033EEA0 /* ProductCollectionViewCell.swift */,
+				8BF007711F246B920033EEA0 /* BannerCollectionViewCell.swift */,
+				8B065BC11F251B9F007BFCCF /* ProductImageView.swift */,
+				8B065BC31F251BAF007BFCCF /* PaintCodeView.swift */,
+				8B065BC51F251C64007BFCCF /* RichApparelsStyleKit.swift */,
+				8B065BD31F268B9C007BFCCF /* Lato */,
 				8BEB5E331F225F2B00B58558 /* Assets.xcassets */,
+				8B065BCD1F25740D007BFCCF /* GoogleService-Info.plist */,
 				8BEB5E351F225F2B00B58558 /* LaunchScreen.storyboard */,
 				8BEB5E381F225F2B00B58558 /* Info.plist */,
 			);
@@ -128,6 +247,16 @@
 			path = RichApparelsUITests;
 			sourceTree = "<group>";
 		};
+		A66C53954C84D95000D3F53A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226D729E990AB2994EC65EE8 /* Pods_RichApparels.framework */,
+				B4AC51EEAC9AE50175453D1C /* Pods_RichApparelsTests.framework */,
+				5BF053B0BB716B26A668F4CA /* Pods_RichApparelsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEB5E511F225F2B00B58558 /* Build configuration list for PBXNativeTarget "RichApparels" */;
 			buildPhases = (
+				233BE0419BD3F7FFFE402F7F /* [CP] Check Pods Manifest.lock */,
 				8BEB5E231F225F2A00B58558 /* Sources */,
 				8BEB5E241F225F2A00B58558 /* Frameworks */,
 				8BEB5E251F225F2A00B58558 /* Resources */,
+				72A1996825A8B3FDC209E613 /* [CP] Embed Pods Frameworks */,
+				C3194C92E45B732607BEF765 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEB5E541F225F2B00B58558 /* Build configuration list for PBXNativeTarget "RichApparelsTests" */;
 			buildPhases = (
+				6A5B0B9D29C0BA14C49B0297 /* [CP] Check Pods Manifest.lock */,
 				8BEB5E391F225F2B00B58558 /* Sources */,
 				8BEB5E3A1F225F2B00B58558 /* Frameworks */,
 				8BEB5E3B1F225F2B00B58558 /* Resources */,
+				1027746C1F6358B37AB215C6 /* [CP] Embed Pods Frameworks */,
+				2A11909790A91DE649614EAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEB5E571F225F2B00B58558 /* Build configuration list for PBXNativeTarget "RichApparelsUITests" */;
 			buildPhases = (
+				8C1B29D55A0043086CFA75C2 /* [CP] Check Pods Manifest.lock */,
 				8BEB5E441F225F2B00B58558 /* Sources */,
 				8BEB5E451F225F2B00B58558 /* Frameworks */,
 				8BEB5E461F225F2B00B58558 /* Resources */,
+				CDD071CAFECD5F259462D126 /* [CP] Embed Pods Frameworks */,
+				BBB5CDEB7024BB2648C5728E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +376,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B065BE91F268B9C007BFCCF /* OFL.txt in Resources */,
+				8B065BE01F268B9C007BFCCF /* Lato-BlackItalic.ttf in Resources */,
+				8B065BE71F268B9C007BFCCF /* Lato-LightItalic.ttf in Resources */,
+				8B065BDF1F268B9C007BFCCF /* Lato-Black.ttf in Resources */,
+				8B065BE51F268B9C007BFCCF /* Lato-Italic.ttf in Resources */,
+				8B065BE41F268B9C007BFCCF /* Lato-HairlineItalic.ttf in Resources */,
+				8B065BE31F268B9C007BFCCF /* Lato-Hairline.ttf in Resources */,
+				8BF0076A1F2433CE0033EEA0 /* HideSections.js in Resources */,
 				8BEB5E371F225F2B00B58558 /* LaunchScreen.storyboard in Resources */,
 				8BEB5E341F225F2B00B58558 /* Assets.xcassets in Resources */,
 				8BEB5E321F225F2B00B58558 /* Main.storyboard in Resources */,
+				8B065BE81F268B9C007BFCCF /* Lato-Regular.ttf in Resources */,
+				8B065BE11F268B9C007BFCCF /* Lato-Bold.ttf in Resources */,
+				8B065BCE1F25740D007BFCCF /* GoogleService-Info.plist in Resources */,
+				8B065BE21F268B9C007BFCCF /* Lato-BoldItalic.ttf in Resources */,
+				8B065BE61F268B9C007BFCCF /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +411,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1027746C1F6358B37AB215C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichApparelsTests/Pods-RichApparelsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		233BE0419BD3F7FFFE402F7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A11909790A91DE649614EAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichApparelsTests/Pods-RichApparelsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5B0B9D29C0BA14C49B0297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72A1996825A8B3FDC209E613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichApparels/Pods-RichApparels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1B29D55A0043086CFA75C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB5CDEB7024BB2648C5728E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichApparelsUITests/Pods-RichApparelsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3194C92E45B732607BEF765 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichApparels/Pods-RichApparels-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD071CAFECD5F259462D126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichApparelsUITests/Pods-RichApparelsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BEB5E231F225F2A00B58558 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEB5E2F1F225F2B00B58558 /* SecondViewController.swift in Sources */,
+				8BF007701F24612E0033EEA0 /* MoreViewController.swift in Sources */,
+				8BEB5E2F1F225F2B00B58558 /* WebViewController.swift in Sources */,
+				8B065BC41F251BAF007BFCCF /* PaintCodeView.swift in Sources */,
 				8BEB5E2B1F225F2B00B58558 /* AppDelegate.swift in Sources */,
-				8BEB5E2D1F225F2B00B58558 /* FirstViewController.swift in Sources */,
+				8BF007661F22A95D0033EEA0 /* ProductCollectionViewCell.swift in Sources */,
+				8B065BD21F26869A007BFCCF /* HomeViewController.swift in Sources */,
+				8B065BC61F251C64007BFCCF /* RichApparelsStyleKit.swift in Sources */,
+				8B065BC81F2523F4007BFCCF /* ProductViewController.swift in Sources */,
+				8B36305E1F280B9D001D1580 /* SubmissionsViewController.swift in Sources */,
+				8B3630621F284475001D1580 /* Easing.swift in Sources */,
+				8BEB5E2D1F225F2B00B58558 /* ProductsViewController.swift in Sources */,
+				8B065BCA1F254091007BFCCF /* Extensions.swift in Sources */,
+				8BF0076E1F2456770033EEA0 /* CategoryCollectionViewCell.swift in Sources */,
+				8BF007721F246B920033EEA0 /* BannerCollectionViewCell.swift in Sources */,
+				8BF007681F2407DE0033EEA0 /* CategoriesViewController.swift in Sources */,
+				8B065BD01F263988007BFCCF /* ShopViewController.swift in Sources */,
+				8B065BC21F251B9F007BFCCF /* ProductImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,32 +722,40 @@
 		};
 		8BEB5E521F225F2B00B58558 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC41516D2E822E5818135E4 /* Pods-RichApparels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				DEVELOPMENT_TEAM = 349WFX4WJR;
 				INFOPLIST_FILE = RichApparels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jwitapps.RichApparels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 			};
 			name = Debug;
 		};
 		8BEB5E531F225F2B00B58558 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B229131E3B36E79B8477D1AB /* Pods-RichApparels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				DEVELOPMENT_TEAM = 349WFX4WJR;
 				INFOPLIST_FILE = RichApparels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jwitapps.RichApparels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 			};
 			name = Release;
 		};
 		8BEB5E551F225F2B00B58558 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03061F1C08C821AAD323BE19 /* Pods-RichApparelsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +771,7 @@
 		};
 		8BEB5E561F225F2B00B58558 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47CDAF354F756F64392273B /* Pods-RichApparelsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +787,7 @@
 		};
 		8BEB5E581F225F2B00B58558 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70808A5A2DF9A57DD80CEE60 /* Pods-RichApparelsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 349WFX4WJR;
@@ -489,6 +802,7 @@
 		};
 		8BEB5E591F225F2B00B58558 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C181EBB9CD32912B717CF115 /* Pods-RichApparelsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 349WFX4WJR;
@@ -520,6 +834,7 @@
 				8BEB5E531F225F2B00B58558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BEB5E541F225F2B00B58558 /* Build configuration list for PBXNativeTarget "RichApparelsTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +843,7 @@
 				8BEB5E561F225F2B00B58558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BEB5E571F225F2B00B58558 /* Build configuration list for PBXNativeTarget "RichApparelsUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +852,7 @@
 				8BEB5E591F225F2B00B58558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AnimatedTextInput (0.5.1)
+  - Cartography (1.1.0)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Database (4.0.4):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.4):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - IQKeyboardManagerSwift (4.0.10)
+  - JWSwiftTools (1.1.14)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - SCLAlertView (0.7.0)
+  - SwiftDate (4.1.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AnimatedTextInput
+  - Cartography
+  - Firebase/Core
+  - Firebase/Database
+  - IQKeyboardManagerSwift
+  - JWSwiftTools
+  - SCLAlertView
+  - SwiftDate
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AnimatedTextInput: 0fde4c9c8d71dafc032b9b222531a788767536fb
+  Cartography: '0538ccb4044acbbda2266335fc58cb4228794d90'
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
+  JWSwiftTools: c07152e274af4fbb834b350fc54ab52369a41f80
+  nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SwiftDate: '029be76691ee89176da3a46c7df3415b6734bc5b'
+
+PODFILE CHECKSUM: e0ae2399f0c11b768ea6ef93d3a39c1b0bda3960
+
+COCOAPODS: 1.2.1
